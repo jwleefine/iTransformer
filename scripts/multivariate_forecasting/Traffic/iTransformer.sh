@@ -21,7 +21,11 @@ python -u run.py \
   --d_ff 512 \
   --batch_size 16 \
   --learning_rate 0.001 \
-  --itr 1
+  --itr 1 \
+  --target_root_path='./dataset/traffic/' \
+  --target_data_path='traffic.csv' \
+  --use_gpu True \
+  --gpu 0
 
 python -u run.py \
   --is_training 1 \
@@ -42,7 +46,11 @@ python -u run.py \
   --d_ff 512 \
   --batch_size 16 \
   --learning_rate 0.001 \
-  --itr 1
+  --itr 1 \
+  --target_root_path='./dataset/traffic/' \
+  --target_data_path='traffic.csv'\
+  --use_gpu True \
+  --gpu 0
 
 python -u run.py \
   --is_training 1 \
@@ -63,7 +71,11 @@ python -u run.py \
   --d_ff 512 \
   --batch_size 16 \
   --learning_rate 0.001 \
-  --itr 1
+  --itr 1 \
+  --target_root_path='./dataset/traffic/' \
+  --target_data_path='traffic.csv'\
+  --use_gpu True \
+  --gpu 0
 
 python -u run.py \
   --is_training 1 \
@@ -84,4 +96,8 @@ python -u run.py \
   --d_ff 512 \
   --batch_size 16 \
   --learning_rate 0.001\
-  --itr 1
+  --itr 1 \
+  --target_root_path='./dataset/traffic/' \
+  --target_data_path='traffic.csv'\
+  --use_gpu True \
+  --gpu 0
