@@ -10,8 +10,9 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seq_len 96 \
-  --pred_len 96 \
+  --seq_len 20 \
+  --label_len 5
+  --pred_len 5 \
   --e_layers 4 \
   --enc_in 25 \
   --dec_in 25 \
@@ -25,7 +26,8 @@ python -u run.py \
   --target_root_path='./dataset/fx/' \
   --target_data_path='fx.csv' \
   --use_gpu True \
-  --gpu 0
+  --gpu 0 \
+  --freq = 'd'
 
 python -u run.py \
   --is_training 1 \
@@ -35,8 +37,9 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seq_len 96 \
-  --pred_len 192 \
+  --seq_len 20 \
+  --label_len 5
+  --pred_len 10 \
   --e_layers 4 \
   --enc_in 25 \
   --dec_in 25 \
@@ -50,7 +53,8 @@ python -u run.py \
   --target_root_path='./dataset/fx/' \
   --target_data_path='fx.csv'\
   --use_gpu True \
-  --gpu 0
+  --gpu 0 \
+  --freq = 'd'
 
 python -u run.py \
   --is_training 1 \
@@ -60,8 +64,9 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seq_len 96 \
-  --pred_len 336 \
+  --seq_len 20 \
+  --label_len 5
+  --pred_len 15 \
   --e_layers 4 \
   --enc_in 25 \
   --dec_in 25 \
@@ -75,7 +80,8 @@ python -u run.py \
   --target_root_path='./dataset/fx/' \
   --target_data_path='fx.csv'\
   --use_gpu True \
-  --gpu 0
+  --gpu 0 \
+  --freq = 'd'
 
 python -u run.py \
   --is_training 1 \
@@ -85,8 +91,9 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seq_len 96 \
-  --pred_len 720 \
+  --seq_len 20 \
+  --label_len 5
+  --pred_len 20 \
   --e_layers 4 \
   --enc_in 25 \
   --dec_in 25 \
@@ -100,4 +107,5 @@ python -u run.py \
   --target_root_path='./dataset/fx/' \
   --target_data_path='fx.csv'\
   --use_gpu True \
-  --gpu 0
+  --gpu 0 \
+  --freq = 'd'
