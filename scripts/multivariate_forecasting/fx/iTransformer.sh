@@ -22,8 +22,8 @@ python -u run.py \
 --batch_size 16 \
 --learning_rate 0.001 \
 --itr 1 \
---target_root_path='./dataset/fx/' \
---target_data_path='fx.csv' \
+--target_root_path ./dataset/fx/ \
+--target_data_path fx.csv \
 --use_gpu True \
 --gpu 0 \
 --freq 'd'
@@ -49,8 +49,8 @@ python -u run.py \
 --batch_size 16 \
 --learning_rate 0.001 \
 --itr 1 \
---target_root_path='./dataset/fx/' \
---target_data_path='fx.csv' \
+--target_root_path ./dataset/fx/ \
+--target_data_path fx.csv \
 --use_gpu True \
 --gpu 0 \
 --freq 'd'
@@ -76,8 +76,8 @@ python -u run.py \
 --batch_size 16 \
 --learning_rate 0.001 \
 --itr 1 \
---target_root_path='./dataset/fx/' \
---target_data_path='fx.csv' \
+--target_root_path ./dataset/fx/ \
+--target_data_path fx.csv \
 --use_gpu True \
 --gpu 0 \
 --freq 'd'
@@ -103,8 +103,8 @@ python -u run.py \
 --batch_size 16 \
 --learning_rate 0.001 \
 --itr 1 \
---target_root_path='./dataset/fx/' \
---target_data_path='fx.csv' \
+--target_root_path ./dataset/fx/ \
+--target_data_path fx.csv \
 --use_gpu True \
 --gpu 0 \
 --freq 'd'
