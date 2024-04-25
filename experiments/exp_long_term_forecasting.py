@@ -264,10 +264,10 @@ class Exp_Long_Term_Forecast(Exp_Basic):
             os.makedirs(folder_path)
 
         mae, mse, rmse, mape, mspe = metric(preds, trues)
-        print('mse:{}, mae:{}, mape:{}'.format(mse, made, mape))
+        print('mse:{}, mae:{}, mape:{}'.format(mse, mae, mape))
         f = open("result_long_term_forecast.txt", 'a')
         f.write(setting + "  \n")
-        f.write('mse:{}, mae:{}, mape:{}'.format(mse, made, mape))
+        f.write('mse:{}, mae:{}, mape:{}'.format(mse, mae, mape))
         f.write('\n')
         f.write('\n')
         f.close()
